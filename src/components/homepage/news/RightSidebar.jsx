@@ -26,7 +26,7 @@ const RightSidebar = () => {
         <button onClick={handleGoogleSignin} className="btn text-blue-800  border-blue-500">
           <FaGoogle /> login with google
         </button>
-        <button onClick={ handleGihubSignin} className="btn">
+        <button onClick={ handleGihubSignin} className="btn btn-primary">
           <FaGithub /> login with github
         </button>
       </div>
